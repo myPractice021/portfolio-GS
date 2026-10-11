@@ -160,7 +160,7 @@ export default function Projects() {
             </div>
 
             <a
-              href="https://github.com/gyansharma1904-gif"
+              href="https://github.com/Playroom021"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex w-fit items-center gap-2
