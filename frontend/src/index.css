@@ -109,3 +109,14 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+
+/* ---------- Switchboard settings ---------- */
+html.smooth-scroll { scroll-behavior: smooth; }
+
+/* Light mode: flips the (dark) portfolio to light without touching each component */
+html.theme-light { filter: invert(1) hue-rotate(180deg); }
+html.theme-light img,
+html.theme-light video { filter: invert(1) hue-rotate(180deg); }
+
+@keyframes gs-site-in { from { opacity: 0; } to { opacity: 1; } }
+.gs-site-in { animation: gs-site-in 0.8s ease both; }
